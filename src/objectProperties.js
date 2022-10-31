@@ -1,0 +1,58 @@
+export const objectProperties = {
+  mercury: {
+    scale: 0.0035,
+    position: 3.3,
+    tilt: 0,
+    rotationSpeed: 0.0002,
+    revolutionSpeed: 0.1,
+  },
+  venus: {
+    scale: 0.0087,
+    position: 3.5,
+    tilt: 0.0147 * Math.PI,
+    rotationSpeed: 0.000041,
+    revolutionSpeed: 0.04,
+  },
+  earth: {
+    scale: 0.00916,
+    position: 4,
+    tilt: 0.1306 * Math.PI,
+    rotationSpeed: 0.01,
+    revolutionSpeed: 0.025,
+  },
+  mars: {
+    scale: 0.00487,
+    position: 4.5,
+    tilt: 0.14 * Math.PI,
+    rotationSpeed: 0.01,
+    revolutionSpeed: 0.013,
+  },
+  jupiter: {
+    scale: 0.1,
+    position: 7,
+    tilt: 0.0173 * Math.PI,
+    rotationSpeed: 0.0244,
+    revolutionSpeed: 0.002,
+  },
+  saturn: {
+    scale: 0.0837,
+    position: 10.5,
+    tilt: 0.1485 * Math.PI,
+    rotationSpeed: 0.022,
+    revolutionSpeed: 0.00083,
+  },
+  uranus: {
+    scale: 0.0365,
+    position: 15,
+    tilt: 0.457 * Math.PI,
+    rotationSpeed: 0.014,
+    revolutionSpeed: 0.00029,
+  },
+  neptune: {
+    scale: 0.0354,
+    position: 16.5,
+    tilt: 0.157 * Math.PI,
+    rotationSpeed: 0.016,
+    revolutionSpeed: 0.00015,
+  },
+};
